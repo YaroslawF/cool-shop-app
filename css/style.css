@@ -4,6 +4,12 @@
   height: 20px;
 }
 
+.logo {
+  font-size: 40px;
+  font-family: var(--logo-font);
+  color: var(--text-color-light);
+}
+
 .icon-search {
   width: 18px;
   height: 17px;
