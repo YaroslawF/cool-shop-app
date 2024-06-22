@@ -88,6 +88,7 @@
 }
 /* --- Реклама --- */
 .advertising {
+  position: relative;
   height: 252px;
   padding: 24px 60px;
   display: flex;
@@ -105,6 +106,23 @@
   border-radius: 16px;
   color: white;
   background-color: #c3c943;
+}
+
+.icon-arrow-left,
+.icon-arrow-right {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+}
+
+.icon-arrow-left {
+  left: -14px;
+  top: 102px;
+}
+
+.icon-arrow-right {
+  right: -14px;
+  top: 102px;
 }
 
 /* --- Популярні --- */
